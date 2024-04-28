@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 10px; /* Corrected the margin property with 'px' */
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+        }
+        nav a {
+            margin-left: 10px;
+        }
+
+        nav a.menu-link {
+            margin-right: 20px; /* Adjust the margin as needed */
+        }
+
+        nav a.home-link {
+            margin-right: 0; /* Remove the default margin for Home */
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a class="menu-link">Menu</a>
+        <a href="home.html">Home</a>
+        <a href="list.html">List</a>
+        <a href="table.html">Table</a>
+        <a href="form.html">Form</a>
+    </nav>
+
+<h2>Form</h2>
+
+<div>
+
+  <form method="post">
+    <div>
+        <label for="id">ID</label>
+        <input type="text" id="id" name="id" placeholder="ID">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+    </div>
+
+    <div>
+        <legend>Gender</legend>
+        <label>
+          <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female"> Female
+        </label>
+    </div>
+
+
+    <div>
+        <label for="program">Program</label>
+        <select id="program" name="program">
+            <option value="">   </option>
+            <option value="CSE">CSE</option>
+            <option value="SWE">SWE</option>
+        </select>
+    </div>
+
+
+    <div>
+        <label for="review">Review</label>
+        <textarea id="review" name="review" placeholder="Add review if you want to"></textarea>
+    </div>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</div>
+<div><footer style="text-align: center;">
+    <p>Copyright @ Oishy Fatema Akhand</p>
+</footer></div>
+</body>
+</html>

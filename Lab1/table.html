@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Fixtures</title>
+    <style>
+
+body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 5;
+        }
+
+        div {
+            flex: 1; /* Grow and take up remaining space */
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px;
+        }
+        nav a {
+            margin-left: 10px;
+        }
+
+        /* Add a class to the Menu link for specific styling */
+        nav a.menu-link {
+            margin-right: 20px; /* Adjust the margin as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a class="menu-link">Menu</a>
+        <a href="home.html">Home</a>
+        <a href="list.html">List</a>
+        <a href="table.html">Table</a>
+        <a href="form.html">Form</a>
+    </nav>
+
+<div>
+    <h3>Table</h3>
+    <p>World Cup Fixture </p>
+    <table border="1" >
+        <tr>
+            <th rowspan="2" colspan="2">Play Type</th>
+            <th colspan="2">Groups</th>
+        </tr>
+        <tr>
+            <td>Group A</td>
+            <td>Group B</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">Football</td>
+            <td>GER</td>
+            <td>BR</td>
+        </tr>
+        <tr>
+            <td>FRA</td>
+            <td>ARG</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Cricket</td>
+            <td rowspan="2">T-20</td>
+            <td>AUS</td>
+            <td>NZ</td>
+        </tr>
+        <tr>
+            <td>ENG</td>
+            <td>SA</td>
+        </tr>
+        <tr>
+            <td rowspan="2">ODI</td>
+            <td>BD</td>
+            <td>IND</td>
+        </tr>
+        <tr>
+            <td>ENG</td>
+            <td>PAK</td>
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <p>Copyright @ Oishy Fatema Akhand</p>
+</footer>
+
+</body>
+</html>
